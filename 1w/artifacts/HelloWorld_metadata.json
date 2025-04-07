@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1w/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1w/HelloWorld.sol": {
+			"keccak256": "0x28cc90441fb99d338a550b321264a7044543b97340708ca597e04fccab66714f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4045ae026358c9c0ebc5738afe97819df5d0d2464e2d6d2c44f2d32b16a9dac",
+				"dweb:/ipfs/QmRfAkRuHDvZb6D8vHBxmeWXYbM4X2jpEs8KkGTYv1kLLc"
+			]
+		}
+	},
+	"version": 1
+}
