@@ -6,24 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "y",
-						"type": "uint256[]"
-					},
+				"inputs": [],
+				"name": "bar",
+				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "examples",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256[]"
+						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -31,10 +33,8 @@
 			}
 		],
 		"devdoc": {
-			"author": "@author ",
 			"kind": "dev",
 			"methods": {},
-			"title": "Datacations 数据传输 1.如果我们想修改链上的数据我们就用storage来声明 2.在方法中修改链上数据会被影响到状态变量 3.想要读取只是读的话我们就用memory来声明 4.",
 			"version": 1
 		},
 		"userdoc": {
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2w/026Datacations.sol": "Datacations"
+			"3w/030Inheritance.sol": "A"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2w/026Datacations.sol": {
-			"keccak256": "0xeeeb187490057ac4c86adeeaac12710839665ba93922b01a95a8a4f4ccacb7c7",
+		"3w/030Inheritance.sol": {
+			"keccak256": "0x38bcf060006d81141f4fbd1e377283aa4e0a6a948e641480f183213f5903672c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c916704431d43440d001261c1e4c04de7b5f9f7bb7eed085b6a4055a458cef6",
-				"dweb:/ipfs/QmTbfvhWwepPW7gHovgsXZatLJzULUhuVARP6MbqDR3oQy"
+				"bzz-raw://3849ed5301b15da5d40062c7734979186e3f1ba8da64e791343204ca5c2c7088",
+				"dweb:/ipfs/QmZ15yAkD8JYQsAzPvvyX691VjWAaHEfgtyQdFSiye3LUn"
 			]
 		}
 	},

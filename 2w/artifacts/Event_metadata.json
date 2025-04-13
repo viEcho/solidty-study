@@ -122,11 +122,11 @@
 	},
 	"sources": {
 		"2w/029Event.sol": {
-			"keccak256": "0x98ab32dcadcd465e45b0c4f869cce8aebabe7080f2938671b9ab2ed6976cb115",
+			"keccak256": "0xd69e9c1d61ab71c0e0bb555a736b369da87399de24c80bdc38db9ef87c60857c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://641fe3aa45872fb05efcd2866251241f367f56bfecc7e50dbf306b341fa4bd84",
-				"dweb:/ipfs/QmP2VLGeTz5oWXrXeKiGjdPrpBQr3hyhn3ao3JW4L9w6cd"
+				"bzz-raw://ca4a23c17e56798ed3e7388546625b6a7e7e40193ae5363925bc34f4a4fcdb4d",
+				"dweb:/ipfs/QmPyL52YXccD2JE9xXkSi1zRFuCn35hZ5dB5H6soSkMjYc"
 			]
 		}
 	},
