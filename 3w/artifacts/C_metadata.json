@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"3w/030Inheritance.sol": {
-			"keccak256": "0x38bcf060006d81141f4fbd1e377283aa4e0a6a948e641480f183213f5903672c",
+			"keccak256": "0xb36f8a32985938d6e59a1063d2357406a6ed23c35b9d6f8d7cc45be6ebe43460",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3849ed5301b15da5d40062c7734979186e3f1ba8da64e791343204ca5c2c7088",
-				"dweb:/ipfs/QmZ15yAkD8JYQsAzPvvyX691VjWAaHEfgtyQdFSiye3LUn"
+				"bzz-raw://66753394c715cfeeeeef25118c8f77ed22fc13233f2f2249a800372291b7385a",
+				"dweb:/ipfs/QmS8f3DoxErrK9xAp9cuskzSZjSGeHeCukSuGHSotkoLAA"
 			]
 		}
 	},

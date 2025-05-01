@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.3+commit.8d00100c"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -48,7 +48,7 @@
 		"compilationTarget": {
 			"3w/033ParentFunctions.sol": "E"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -61,11 +61,11 @@
 	},
 	"sources": {
 		"3w/033ParentFunctions.sol": {
-			"keccak256": "0xf1f46fcf003e2f5f3057b438924acbffa720280b60e766d16913bbbcf645338d",
+			"keccak256": "0xddf787c7c8c12abaa06d7432000734052a677c7b582f120402f78801da409bf2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae05744a6b8f1d06d0886139579d1d92d0d1d2741ee36313eee805411816a16a",
-				"dweb:/ipfs/QmSZFpLPEk3Jtb8TTGP3F34gfsrX2KewAJeQhd9kgpoxpW"
+				"bzz-raw://80ea467520a2ea51428d2b7afc73bffaff405bbe77464cae5923b5b8ca8227db",
+				"dweb:/ipfs/QmeWEay17nedY6PpDGUXiMazdh6ZQoehYZxQhDUDDJotWb"
 			]
 		}
 	},

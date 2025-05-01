@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -73,7 +73,7 @@
 		"compilationTarget": {
 			"3w/031MultipleInheritance.sol": "Z"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -86,11 +86,11 @@
 	},
 	"sources": {
 		"3w/031MultipleInheritance.sol": {
-			"keccak256": "0x5c9a2c1c6909922902ea291e8ed7ec53b7e34dd202c03495a789f54ec93a0692",
+			"keccak256": "0x451c0b6a2eed8ce801c9f98f947b2f614dc01ed46c33d45595ffd3e5dbd2a026",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65e7b10443a64aa3e4cdc5ae1f4b1d4821a332a8cfa51c2d4096e81931a09380",
-				"dweb:/ipfs/QmS4NTQYTM8Z2mGmJShGdkcPN3MR22rFRrnhwXMeYFpcuB"
+				"bzz-raw://03ce3548c0ac84da9e08268c9664864ceb84dc0aae9e3322bb1c8611c443e85c",
+				"dweb:/ipfs/QmZ4m9sK5NBhUsGWzKYRQZYiduYfgxPxkHYikx7inXAvGE"
 			]
 		}
 	},
