@@ -6,8 +6,16 @@ contract caller{
         _test.setX(_x);
     }
 
+    function getX(address _test) external view returns(uint x){
+        x = TestContract(_test).getX();
+        return x;
+    }
+
     function setXandSendEther(TestContract _test,uint _x) external payable{
         _test.setXandSendEther{value: msg.value}(_x);
+    }
+    function getXandValue(address _test)external view returns(uint x, uint value){
+        (x, value) = TestContract(_test).getXandValue();
     }
 }
 

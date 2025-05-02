@@ -7,28 +7,59 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "bar",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "sender",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"3w/030Inheritance.sol": "A"
+			"3w/043DelegateCall.sol": "A"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"3w/030Inheritance.sol": {
-			"keccak256": "0xb36f8a32985938d6e59a1063d2357406a6ed23c35b9d6f8d7cc45be6ebe43460",
+		"3w/043DelegateCall.sol": {
+			"keccak256": "0xbc36d310aa236dcea349917663318f68fe08ecff6ec462ef84e4e3402ff16fce",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66753394c715cfeeeeef25118c8f77ed22fc13233f2f2249a800372291b7385a",
-				"dweb:/ipfs/QmS8f3DoxErrK9xAp9cuskzSZjSGeHeCukSuGHSotkoLAA"
+				"bzz-raw://d9e942805801edc0fd37b7da1ae7b63a58aeacf2baab0de3f6e69114aa08050a",
+				"dweb:/ipfs/QmcKuQ6hjUJEVsGkNmrjsjZpDwFYRGN5qM82vBHyNZS7wV"
 			]
 		}
 	},
