@@ -8,22 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "text0",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "text1",
-						"type": "string"
+						"internalType": "bytes32",
+						"name": "_messageHash",
+						"type": "bytes32"
 					}
 				],
-				"name": "collision",
+				"name": "getEthSignedMessageHash",
 				"outputs": [
 					{
 						"internalType": "bytes32",
@@ -38,21 +28,16 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "text0",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "text1",
+						"name": "_messsage",
 						"type": "string"
 					}
 				],
-				"name": "encode",
+				"name": "getMessageHash",
 				"outputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "bytes"
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "pure",
@@ -61,51 +46,51 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "text0",
-						"type": "string"
+						"internalType": "bytes32",
+						"name": "_ethSignedMessageHash",
+						"type": "bytes32"
 					},
 					{
-						"internalType": "string",
-						"name": "text1",
-						"type": "string"
-					}
-				],
-				"name": "encodePacked",
-				"outputs": [
-					{
 						"internalType": "bytes",
-						"name": "",
+						"name": "_sig",
 						"type": "bytes"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "text",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
-					},
+				"name": "recover",
+				"outputs": [
 					{
 						"internalType": "address",
-						"name": "addr",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "hash",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
 				"outputs": [
 					{
-						"internalType": "bytes32",
+						"internalType": "bool",
 						"name": "",
-						"type": "bytes32"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -125,7 +110,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"4w/046Hash.sol": "HashFunc"
+			"4w/047Sign.sol": "VersifySig"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -139,12 +124,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"4w/046Hash.sol": {
-			"keccak256": "0x44828b6427095aba9bf1cf4dfe1cc4e6541441881dd763d64ec9ebad7b9890dd",
+		"4w/047Sign.sol": {
+			"keccak256": "0xd7dde22060b1e7bb01f2f45d1a8c8fb9458cf6ff283603bbd6ed2df18c6e1da9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d877d31e160f45e2a7db2006efe513263ab9cab87e8e0eb644ae4c7af476f058",
-				"dweb:/ipfs/QmQUFaag523gLfGcpF62XrrwoheMMGMnR9BEZ4fz5AHcww"
+				"bzz-raw://75a1d8805064d5ab028d1f36c1186056da46b3507e0f30be0ea193567d02193d",
+				"dweb:/ipfs/QmNVAdK8nP9JZG2BM7mPcm23CnrBLu8ycDE7Kc3L91MtSY"
 			]
 		}
 	},

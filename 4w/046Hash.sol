@@ -20,13 +20,13 @@ contract HashFunc {
         return abi.encode(text0, text1);
     }
 
-     // 
+     // encodePacked 传入参数“AAAA","BBB" 和传入参数”AAA“,"ABBB"加密结果一样
     function encodePacked(string memory text0, string memory text1)
         external
         pure
         returns (bytes memory)
     {
-        return abi.encode(text0, text1);
+        return abi.encodePacked(text0, text1);
     }
 
     function collision(
