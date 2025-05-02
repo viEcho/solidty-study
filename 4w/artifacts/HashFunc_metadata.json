@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4w/046Hash.sol": "HashFunc"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4w/046Hash.sol": {
+			"keccak256": "0xe1cd7c59a59b800b4ce1502aa5050e1d4a622251f81c12102a0e6590f5fd6d2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92d8886614254de87a390bfe9cb5cf3c58dba7f58916d602ddda5dabaf8a970e",
+				"dweb:/ipfs/Qmf4wpd3LZJUc4KvoxvJ3G7gD2EtT21tfHnwXDX4kbVsCJ"
+			]
+		}
+	},
+	"version": 1
+}
