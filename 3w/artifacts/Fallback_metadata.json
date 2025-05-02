@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "func",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "函数不存在，直接发送以太 Ether | is msg.data empty? /           \\ Yes           No /               \\ receive() exists?  fallback() /        \\ Yes         No |           | receive()     fallback()",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"3w/037FallBack.sol": "Fallback"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"3w/037FallBack.sol": {
+			"keccak256": "0x8dfe473a8f04e6facfc8610aa96a7ecb71fca9d116003c61ff9537565d27d108",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51e3079c4d85f41d91d906554a0bc9fc7955c3cb389bc85df7963bba3736c397",
+				"dweb:/ipfs/QmWqJiJFB972GLw7vBd8Yi1KvtD4buKrSBRqGZek2oX5UN"
+			]
+		}
+	},
+	"version": 1
+}
