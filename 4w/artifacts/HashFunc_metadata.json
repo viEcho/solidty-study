@@ -9,6 +9,83 @@
 				"inputs": [
 					{
 						"internalType": "string",
+						"name": "text0",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "text1",
+						"type": "string"
+					}
+				],
+				"name": "collision",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "text0",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "text1",
+						"type": "string"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "text0",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "text1",
+						"type": "string"
+					}
+				],
+				"name": "encodePacked",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
 						"name": "text",
 						"type": "string"
 					},
@@ -63,11 +140,11 @@
 	},
 	"sources": {
 		"4w/046Hash.sol": {
-			"keccak256": "0xe1cd7c59a59b800b4ce1502aa5050e1d4a622251f81c12102a0e6590f5fd6d2a",
+			"keccak256": "0x458a0dc1655a9fa7d67d831296956bcd0c71b05ea994bcbda67ff36886efdf1f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://92d8886614254de87a390bfe9cb5cf3c58dba7f58916d602ddda5dabaf8a970e",
-				"dweb:/ipfs/Qmf4wpd3LZJUc4KvoxvJ3G7gD2EtT21tfHnwXDX4kbVsCJ"
+				"bzz-raw://b2369cd7ed4e7ba9d69f999fa170f10900bdd078546802a3a4d6c2a5ba8031af",
+				"dweb:/ipfs/Qme3WG7LJpt8snALgpnJwMGuSPxhWAXSk1uokfkTuKYQht"
 			]
 		}
 	},
