@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sumIfEvenAndLessThan99",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"5w/GasGlof.sol": "GasGolf"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"5w/GasGlof.sol": {
+			"keccak256": "0xaeed8e62aba9759d37a734b7b1a0c07b4be09abe291e91f0aaa101d25909771d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7926579d1266ecb6ef57cf9eb5385995911ef58123d60f88d8ddd1cf9c6f45aa",
+				"dweb:/ipfs/QmSpTTJ74GRFcAeF1rWhLFV8mVBkkqs9oeebUYhkWxefAi"
+			]
+		}
+	},
+	"version": 1
+}
