@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity ^0.8.26;
 
 // 一定要点左侧acoount那边的复制才能复制到完整的地址 
 contract Ownable{

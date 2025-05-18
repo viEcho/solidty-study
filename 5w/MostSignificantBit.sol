@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity ^0.8.26;
 
 // x = 2^r + remainder
 // 求一个整数的最高位是多少 即最多是2的多少次方+remainder

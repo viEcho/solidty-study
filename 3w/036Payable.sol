@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity ^0.8.26;
 
 //payable 是用于处理以太币（Ether）的核心修饰符，允许合约或函数接收、转移和管理以太币
 //balance 是地址（address 或 address payable 类型）的内置属性

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -208,7 +208,7 @@
 		"compilationTarget": {
 			"5w/BitwiseOps.sol": "BitwiseOps"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -221,11 +221,11 @@
 	},
 	"sources": {
 		"5w/BitwiseOps.sol": {
-			"keccak256": "0x68c837f2d887565111b9fa4016d0762e58e1946e28f8e7ebca457e1c3574d49e",
+			"keccak256": "0x3955827ed2a14ab5049b9eff4182e97ef8267503150cf017287884b6e5fadb21",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f952e0a34324f733788c39755b70fa89ca4e6ba4b8277004a895e7c1d40625d3",
-				"dweb:/ipfs/QmZSSrg9Pd79xt3Vmfovm6rvfhxhWa2LJ1EBv75AT7EMKr"
+				"bzz-raw://c6d15b546342ed878b062ae7ea702897c931bcdaf501fe6e740c71c3f1361663",
+				"dweb:/ipfs/QmQFoCQmSPS7pQ4pNx1343g3juz5pYPPWoZdpUJr6qLmUQ"
 			]
 		}
 	},
